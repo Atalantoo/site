@@ -39,3 +39,33 @@
     text-align: center;
     background-color: #2a2730;
 }
+
+#site-social li {
+	float: left;
+    width: 42px;
+    height: 42px;
+    margin-right: 22px;
+    margin-top: 3px;
+}
+#site-social a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -999em;
+}
+#site-social .site-facebook {
+    background: url(/assets/img/icon-facebook.png) no-repeat center;
+}
+#site-social .site-twitter {
+    background: url(/assets/img/icon-twitter.png) no-repeat center;
+}
+#site-social .site-instagram {
+    background: url(/assets/img/icon-instagram.png) no-repeat center;
+}
+#site-social .site-googleplus {
+    background: url(/assets/img/icon-googleplus.png) no-repeat center;
+}
+#site-social .site-youtube {
+    background: url(/assets/img/icon-youtube.png) no-repeat center;
+}
+
