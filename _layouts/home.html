@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
     {% include header.html %}
   </head>
   <body>
-
-    <!-- Page content of course! -->
-    {{ content }}
-
+    {% include navbar.html %}
+    <main>
+      {{ content }}
+    <main>
+    {% include footer.html %}
   </body>
 </html>
