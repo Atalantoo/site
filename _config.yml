@@ -1,0 +1,14 @@
+repository: Atalantoo/atalantoo.github.io
+
+# Server
+url:         https://atalantoo.github.io/
+encoding:    UTF-8
+
+gems:
+  - jekyll-sitemap
+
+# Custom vars
+twitter:     https://twitter.com/atalantoo
+facebook:    https://www.facebook.com/atalantoo
+youtube:     https://www.youtube.com/channel/UCHN8g_PTmmdkJ291QmNSjQA
+instagram:   https://www.instagram.com/atalantoo
