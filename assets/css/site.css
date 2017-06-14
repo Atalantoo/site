@@ -1,12 +1,26 @@
+body  {
+    background-color: #fff7f5;
+}
+.site-container  {
+    background-color: #fff7f5;
+}
+
+/* NAV */
+
 .site-nav {
+    background-color: #000;
     margin-bottom: 0;
-    background-color: #fff;
     border-bottom: 0;	
 }
 .site-nav .navbar-brand, 
 .site-nav .navbar-nav>li>a {
-	color: #563d7c;
+	color: #99979c;
 }
+.site-nav .navbar-nav>.active>a, .site-nav .navbar-nav>.active>a:hover, .site-nav .navbar-nav>li>a:hover {
+    color: #a34120;
+}
+
+/* HEADER */
 
 .site-header {
 	margin-bottom: 40px;
@@ -14,16 +28,16 @@
 }
 .site-header,
 .site-masthead {
+    color: #a34120;
+    background-color: #ffab6f;
     position: relative;
     padding: 30px 0;
-    color: #cdbfe3;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background-color: #6f5499;
 }
 .site-header h1 {
 	margin-top: 0;
-    color: #fff;
+    text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 768px) {
   .site-header {
@@ -31,19 +45,24 @@
   }
 }
 
+/* FOOTER */
+
 .site-footer {
+    color: #99979c;
+    background-color: #2a2730;
 	padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
-    color: #99979c;
     text-align: center;
-    background-color: #2a2730;
 }
+
+
+/* CUSTOM: SOCIAL */
 
 #site-social li {
     float: left;
     width: 50px;
-    height: 50px;
+    height: 50px; margin: 2px;
 }
 #site-social a {
     display: block;
@@ -63,6 +82,20 @@
 #site-social .site-ios        { background: url(/assets/img/icon-ios.png) no-repeat center; }
 #site-social .site-steam      { background: url(/assets/img/icon-steam.png) no-repeat center; }
 
-footer #site-social li {
-    margin: 10px;
+footer #site-social {     margin-bottom: 20px;}
+footer #site-social li {  margin: 10px; }
+
+footer a {  color: #99979c; }
+
+
+.site-product {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.site-product .img-rounded {
+    width: 200px;
+    height: 100px;
 }
