@@ -2,7 +2,9 @@ body  {
     color: #99979c;
     background-color: #2a2730;
 }
-body a {        color: #a34120; }
+body a { 
+    color: #a34120; 
+}
 
 .site-container  {
     background-color: #2a2730;
@@ -17,7 +19,7 @@ body a {        color: #a34120; }
 }
 .site-nav .navbar-brand, 
 .site-nav .navbar-nav>li>a {
-	color: #99979c;
+	color: #99979c; text-shadow: 1px 1px #2a2730;
 }
 .site-nav .navbar-nav>.active>a, .site-nav .navbar-nav>.active>a:hover, .site-nav .navbar-nav>li>a:hover {
     color: #a34120;
@@ -39,11 +41,11 @@ body a {        color: #a34120; }
     position: relative;
     padding: 30px 0;
     text-align: center;
-    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    text-shadow: 1px 1px #2a2730;
 }
 .site-header h1 {
 	margin-top: 0;
-    text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px #2a2730;
 }
 @media (min-width: 768px) {
   .site-header {
@@ -67,8 +69,8 @@ body a {        color: #a34120; }
 
 #site-social li {
     float: left;
-    width: 50px;
-    height: 50px; margin: 2px;
+    width: 42px;
+    height: 42px;
 }
 #site-social a {
     display: block;
@@ -77,19 +79,20 @@ body a {        color: #a34120; }
     text-indent: -999em;
 }
 
-#site-social li a {             background: url(/assets/img/flat_social_icons.png) no-repeat center; }
-#site-social .site-facebook {   background: url(/assets/img/social_media_icons.jpg) no-repeat center; background-position: -50px -57px;}
-#site-social .site-twitter {    background: url(/assets/img/icon-twitter.png) no-repeat center; }
-#site-social .site-instagram {  background: url(/assets/img/icon-instagram.png) no-repeat center; }
-#site-social .site-googleplus { background: url(/assets/img/icon-googleplus.png) no-repeat center; }
-#site-social .site-youtube {    background: url(/assets/img/icon-youtube.png) no-repeat center; }
-#site-social .site-windows {    background: url(/assets/img/icon-windows.png) no-repeat center; }
-#site-social .site-android    { background: url(/assets/img/icon-android.png) no-repeat center; }
-#site-social .site-ios        { background: url(/assets/img/icon-ios.png) no-repeat center; }
-#site-social .site-steam      { background: url(/assets/img/icon-steam.png) no-repeat center; }
+#site-social li a {    border-radius: 50%;  border: solid 1px #2a2730; box-shadow: 2px 2px #2a2730;        }
+#site-social .site-facebook {   background: url(/assets/img/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-twitter {    background: url(/assets/img/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-instagram {  background: url(/assets/img/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-googleplus { background: url(/assets/img/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-youtube {    background: url(/assets/img/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-windows {    background: url(/assets/img/icon-windows.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-android    { background: url(/assets/img/icon-android.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-ios        { background: url(/assets/img/icon-ios.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-steam      { background: url(/assets/img/icon-steam.png) no-repeat center; background-size: 50px 50px;}
 
-footer #site-social {     margin-bottom: 20px;}
+header #site-social li {  margin: 5px 5px 0px 5px;}
 footer #site-social li {  margin: 10px; }
+footer #site-social {     margin-bottom: 20px;}
 
 /* PAGE: PRODUCTS */
 
