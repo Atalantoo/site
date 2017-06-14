@@ -22,6 +22,9 @@ body a {        color: #a34120; }
 .site-nav .navbar-nav>.active>a, .site-nav .navbar-nav>.active>a:hover, .site-nav .navbar-nav>li>a:hover {
     color: #a34120;
 }
+.site-nav .navbar-toggle .icon-bar {
+    background-color: #99979c;
+}
 
 /* HEADER */
 
