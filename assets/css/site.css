@@ -78,6 +78,7 @@ body a {        color: #a34120; }
 }
 
 #site-social li a {             background: url(/assets/img/flat_social_icons.png) no-repeat center; }
+#site-social .site-facebook {   background: url(/assets/img/social_media_icons.jpg) no-repeat center; background-position: -50px -57px;}
 #site-social .site-twitter {    background: url(/assets/img/icon-twitter.png) no-repeat center; }
 #site-social .site-instagram {  background: url(/assets/img/icon-instagram.png) no-repeat center; }
 #site-social .site-googleplus { background: url(/assets/img/icon-googleplus.png) no-repeat center; }
