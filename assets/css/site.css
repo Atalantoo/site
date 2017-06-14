@@ -40,12 +40,12 @@
     background-color: #2a2730;
 }
 
-#site-navbar #site-social li {
+#site-social li {
     float: left;
     width: 50px;
     height: 50px;
 }
-#site-navbar #site-social a {
+#site-social a {
     display: block;
     width: 100%;
     height: 100%;
@@ -64,14 +64,5 @@
 #site-social .site-steam      { background: url(/assets/img/icon-steam.png) no-repeat center; }
 
 footer #site-social li {
-    float: left;
-    width: 50px;
-    height: 50px;
     margin: 10px;
-}
-footer #site-social a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-indent: -999em;
 }
