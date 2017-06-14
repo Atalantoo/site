@@ -1,8 +1,11 @@
 body  {
-    background-color: #fff7f5;
+    color: #99979c;
+    background-color: #2a2730;
 }
+body a {        color: #a34120; }
+
 .site-container  {
-    background-color: #fff7f5;
+    background-color: #2a2730;
 }
 
 /* NAV */
@@ -29,7 +32,7 @@ body  {
 .site-header,
 .site-masthead {
     color: #a34120;
-    background-color: #ffab6f;
+    background-color: #000;
     position: relative;
     padding: 30px 0;
     text-align: center;
@@ -49,7 +52,7 @@ body  {
 
 .site-footer {
     color: #99979c;
-    background-color: #2a2730;
+    background-color: #000;
 	padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
@@ -85,17 +88,40 @@ body  {
 footer #site-social {     margin-bottom: 20px;}
 footer #site-social li {  margin: 10px; }
 
-footer a {  color: #99979c; }
-
+/* PAGE: PRODUCTS */
 
 .site-product {
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #eee;
     border-radius: 3px;
+    color: #333;
+    background-color: #eee;
+}
+.site-product h4 {
+    font-weight: 700;
 }
 
 .site-product .img-rounded {
+    width: 300px;
+    height: 200px;
+}
+
+/* PAGE: SUPPORT */
+
+.site-support #thumb {
     width: 200px;
-    height: 100px;
+    height: 200px;
+}
+
+/* PAGE: ABOUT */
+
+.site-about #thumb {
+    width: 200px;
+    height: 200px;
+}
+
+.site-team .site-member #avatar {
+    width: 150px;
+    height: 150px;
 }
