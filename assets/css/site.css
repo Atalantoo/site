@@ -152,3 +152,6 @@ footer #site-social {     margin-bottom: 20px;}
     width: 150px;
     height: 150px;
 }
+.site-team .site-member .btn{
+    margin-bottom: 3px;
+}
