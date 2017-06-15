@@ -122,7 +122,14 @@ header #site-social li {  margin: 5px 5px 0px 5px;}
 footer #site-social li {  margin: 10px; }
 footer #site-social {     margin-bottom: 20px;}
 
-/* PAGE: PRODUCTS */
+/* CUSTOM: PAGES */
+
+.site-support #thumb,
+.site-about #thumb, 
+.site-products #thumb {
+    width: 150px;
+    height: 150px;
+}
 
 .site-product {
     padding: 20px;
@@ -139,20 +146,6 @@ footer #site-social {     margin-bottom: 20px;}
 .site-product .img-rounded {
     width: 250px;
     height: 170px;
-}
-
-/* PAGE: SUPPORT */
-
-.site-support #thumb {
-    width: 200px;
-    height: 200px;
-}
-
-/* PAGE: ABOUT */
-
-.site-about #thumb {
-    width: 200px;
-    height: 200px;
 }
 
 .site-team .site-member #avatar {
