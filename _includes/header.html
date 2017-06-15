@@ -2,6 +2,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Meta -->
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ site.author }}">
+<meta name="keywords" content="{{ site.keywords }}">
 <title>
   {% if page.title %}
     {{ page.title }} &middot; {{ site.title }}
@@ -9,16 +13,10 @@
     {{ site.title }} &middot; {{ site.description }}
   {% endif %}
 </title>
-<meta name="author" content="Damien Fremont">
-<meta name="description" content="Atalantoo is a game development studio located in Paris, France. The company develops top quality games for a broad range of digital platforms such as iOS, Android, Windows Phone, and Steam.">
-<meta name="keywords" content="Atalantoo, Mobile Games, iPhone Games, iPad Games, Android Games, iOS, Android, Mac OS, Windows Phone, Games, Developer, Apps, Aplications, Software, Unity3D, Tools" >
 
-<!-- Bootstrap core CSS -->
+<!-- Style -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css?version=3.3.7">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css?version=0.0.1">
-
-<!-- Favicons -->
-<link rel="apple-touch-icon" href="/apple-touch-icon.png?version=0.0.1">
-<link rel="icon" href="/favicon.ico?version=0.0.1">
-
-<meta name="theme-color" content="#000" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css?version=0.0.2">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?version=0.0.2">
+<link rel="icon" href="/favicon.ico?version=0.0.2">
+<meta name="theme-color" content="{{ site.browsercolor }}" />

@@ -7,7 +7,12 @@ encoding:    UTF-8
 gems:
   - jekyll-sitemap
 
-# Custom vars
+# Social
+title: Atalantoo
+description: Atalantoo is a game development studio located in Paris, France. The company develops top quality games for a broad range of digital platforms such as iOS, Android, Windows Phone, and Steam.
+author: Damien Fremont
+keywords: Atalantoo, Mobile Games, iPhone Games, iPad Games, Android Games, iOS, Android, Mac OS, Windows Phone, Games, Developer, Apps, Aplications, Software, Unity3D, Tools
+
 twitter:     https://twitter.com/atalantoo
 facebook:    https://www.facebook.com/atalantoo
 youtube:     https://www.youtube.com/channel/UCHN8g_PTmmdkJ291QmNSjQA
@@ -17,3 +22,7 @@ windows:     .
 android:     .
 ios:         .
 steam:       .
+
+# Custom vars
+browsercolor: #00214a
+copyright: 2017 ATALANTOO. All Rights Reserved.
