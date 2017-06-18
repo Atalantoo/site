@@ -35,7 +35,7 @@ news:
   a:  2017/06/18 - Chronoquiz is in it's final production phase. Coming soon in 2017.
   b:
   c:
-  
+
 products:
   unity3d:
     title: 	ALib (Unity3D Tool)
@@ -50,5 +50,5 @@ products:
     title: 	DinoBlast! (Game)
     desc: 	A traditionnal ShootEmUp, set in a prehistoric universe.
   museum:
-    title:  Museum! (Education)
+    title:  Museum (Education)
     desc:   A sandbox game, where you travel through time.
