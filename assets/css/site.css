@@ -151,16 +151,16 @@ body  {
 }
 
 #site-social li a {    border-radius: 50%;  border: solid 1px #2a2730; box-shadow: 2px 2px #2a2730;        }
-#site-social .site-facebook {   background: url(/assets/img/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-twitter {    background: url(/assets/img/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-instagram {  background: url(/assets/img/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-googleplus { background: url(/assets/img/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-linkedin {   background: url(/assets/img/icon-linkedin.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-youtube {    background: url(/assets/img/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-windows {    background: url(/assets/img/icon-windows.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-android    { background: url(/assets/img/icon-android.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-ios        { background: url(/assets/img/icon-ios.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-steam      { background: url(/assets/img/icon-steam.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-facebook {   background: url(/assets/img/social/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-twitter {    background: url(/assets/img/social/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-instagram {  background: url(/assets/img/social/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-googleplus { background: url(/assets/img/social/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-linkedin {   background: url(/assets/img/social/icon-linkedin.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-youtube {    background: url(/assets/img/social/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-windows {    background: url(/assets/img/social/icon-windows.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-android    { background: url(/assets/img/social/icon-android.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-ios        { background: url(/assets/img/social/icon-ios.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-steam      { background: url(/assets/img/social/icon-steam.png) no-repeat center; background-size: 50px 50px;}
 
 header #site-social li,
 .site-support #site-social li {     margin: 5px 5px 0px 5px; }
