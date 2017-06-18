@@ -107,7 +107,9 @@ body  {
 .site-card h4 {
     font-weight: 700;
 }
-
+.site-card h4 a{
+    color: #333;
+}
 .site-card img {
     width: 250px;
     height: 170px;
