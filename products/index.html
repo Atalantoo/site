@@ -7,13 +7,11 @@ lead: "Over a dozen Products."
 
 <div class="site-products">
   <h1 class="page-header">{{ page.lead }}</h1>
-</div>
 
 {% include tpl-card.html 
   title=site.products.unity3d.title 
   desc=site.products.unity3d.desc 
   img='/assets/img/products/unity3d_lib.jpg' 
-  href='/tto' 
   content='<a class="btn btn-default" target="_blank" href="https://github.com/Atalantoo/unity3d-toolkit">View the GitHub project</a>' 
   %}
 
@@ -21,6 +19,14 @@ lead: "Over a dozen Products."
   title=site.products.chronoquiz.title 
   desc=site.products.chronoquiz.desc 
   img='/assets/img/products/workinprogress.jpg' 
+  content='<a class="btn btn-primary" href="/products/chronoquiz">More &raquo;</a>'
+  %}
+
+{% include tpl-card.html 
+  title=site.products.blast.title 
+  desc=site.products.blast.desc 
+  img='/assets/img/products/workinprogress.jpg' 
+  content='<a class="btn btn-primary" href="/products/dinoblast">More &raquo;</a>'
   %}
 
 {% include tpl-card.html 
@@ -29,8 +35,4 @@ lead: "Over a dozen Products."
   img='/assets/img/products/continuous_integration.png' 
   %}
 
-{% include tpl-card.html 
-  title=site.products.blast.title 
-  desc=site.products.blast.desc 
-  img='/assets/img/products/workinprogress.jpg' 
-  %}
+</div>
