@@ -103,44 +103,38 @@ body  {
 /* CUSTOM: CARD */
 
 .site-card {
-    padding: 20px;
-    margin: 20px 0;
     border: 1px solid #eee;
     border-radius: 3px;
     color: #333;
     background-color: #eee;
-}
 
+}
 .site-card h4 {
     font-weight: 700;
+}
+.site-card h4 img {
+    width: 40px;
+    height: 40px;
 }
 .site-card h4 a{
     color: #333;
 }
-.site-card img {
+
+.site-card-big {
+    padding: 20px;
+    margin: 20px 0;
+}
+.site-card-big img {
     width: 250px;
     height: 170px;
 }
 
 .site-card-mini {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 15px 0px 15px;
     margin-bottom: 10px;
-    border: 1px solid #eee;
-    border-radius: 3px;
-    color: #333;
-    background-color: #eee;
-}
-
-.site-card-mini h4 {
-    font-weight: 700;
-}
-.site-card-mini h4 img {
-    width: 40px;
-    height: 40px;
 }
 .site-card-mini img {
     width: 100%;
-    margin-bottom: 10px;
 }
 
 /* CUSTOM: SOCIAL */
@@ -186,6 +180,8 @@ footer #site-social {               margin-bottom: 20px; }
 .site-team .site-member #avatar {
     width: 150px;
     height: 150px;
+        margin-top: 10px;
+
 }
 .site-team .site-member .btn{
     margin-bottom: 3px;

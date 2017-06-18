@@ -1,8 +1,11 @@
-	<div class="site-card row">
+	<div class="site-card site-card-big row">
 		<div class="col-md-5"><a href="{{ include.href }}">
 			<img src="{{ include.img }}" class="img-rounded"></a></div>
 	  <div class="col-md-7">
-	    <h4><a href="{{ include.href }}">{{ include.title }}</a></h4>
+	  	<h4><a href="{{ include.href }}">
+	  		<img src="{{ include.ico }}" class="img-rounded"> 
+	  		{{ include.title }}
+	  	</a></h4>
 	    <p>{{ include.desc }}</p>
 	    {{ include.content }}
 	  </div>
