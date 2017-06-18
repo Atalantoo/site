@@ -10,16 +10,32 @@ lead: Welcome!
   <a href="{{ site.baseurl }}/about">About</a>
 </div>
 
+<div class="visible-xs">
+  <p>&nbsp;</p>
+  <div class="row">
+		{% include tpl-card-mini.html 
+		  title=site.products.chronoquiz.title 
+		  desc=site.products.chronoquiz.desc 
+		  img='/assets/img/products/workinprogress.jpg' 
+		  ico='/assets/img/products/workinprogress-icon.jpg' 
+		  href='/products/chronoquiz' 
+		  %}
+  </div>
+</div>
+
 <div>
   <h2>Welcome!</h2>
   <p>{{ site.description }}</p>
 </div>
-<!--
+
 <div>
   <h1 class="page-header">News</h1>
-  <p>Coming soon...</p>
-</div>
+<!--
+  <div class="alert alert-info" role="alert">{{ site.news.a }}</div>
 -->
+  <p>{{ site.news.a }}</p>
+</div>
+
 <div>
   <h1 class="page-header">Products</h1>
   <div class="row">
