@@ -133,6 +133,9 @@ body  {
     padding: 0px 15px 0px 15px;
     margin-bottom: 10px;
 }
+.site-card-mini h4 img {
+    margin-left: 20px; margin-right: 20px;
+}
 .site-card-mini img {
     width: 100%;
 }
