@@ -108,6 +108,7 @@ body  {
     color: #333;
     background-color: #eee;
 
+    box-shadow: 2px 2px #2a2730;
 }
 .site-card h4 {
     font-weight: 700;
