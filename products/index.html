@@ -5,6 +5,11 @@ slug: products
 lead: "Over a dozen Products."
 ---
 
+<ol  class="breadcrumb site-breadcrumb">
+  <li><a href="{{ site.baseurl }}/">Home</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
+
 <div class="site-products">
   <h1 class="page-header">{{ page.lead }}</h1>
 
@@ -21,7 +26,7 @@ lead: "Over a dozen Products."
   desc=site.products.chronoquiz.desc 
   img='/assets/img/products/workinprogress.jpg' 
   href='/products/chronoquiz' 
-  content='<a class="btn btn-primary" href="/products/chronoquiz">More &raquo;</a>'
+  content='<a class="btn btn-primary" href="/products/chronoquiz">More &gt;</a>'
 %}
 
 {% include tpl-card.html 
@@ -29,7 +34,7 @@ lead: "Over a dozen Products."
   desc=site.products.dinoblast.desc 
   img='/assets/img/products/workinprogress.jpg' 
   href='/products/dinoblast' 
-  content='<a class="btn btn-primary" href="/products/dinoblast">More &raquo;</a>'
+  content='<a class="btn btn-primary" href="/products/dinoblast">More &gt;</a>'
 %}
 
 {% include tpl-card.html 

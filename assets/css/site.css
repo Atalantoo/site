@@ -1,6 +1,6 @@
 body  {
     color: #fff;
-    background: url(/assets/img/site-bg2.jpg) no-repeat 50% 0 #142430;
+    background: url(/assets/img/site-bg2.jpg) no-repeat 50% 0 #002551;
     font-family: Helvetica,Arial,sans-serif;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -20,7 +20,9 @@ body  {
 }
 
 .navbar-brand, 
-.navbar-nav>li>a {
+.navbar-nav>li>a,
+.nav-bar.visible-xs a,
+.site-breadcrumb a {
 	color: hsla(0,0%,100%,.8); 
     text-shadow: 1px 1px #2a2730;
 }
@@ -37,7 +39,7 @@ body  {
 /* HEADER */
 
 .site-header {
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
     font-size: 20px;
     border-bottom: 1px solid hsla(0,0%,100%,.15);
 }
@@ -91,6 +93,11 @@ body  {
 
 .site-footer .site-copyright  {
     color: hsla(0,0%,100%,.3);
+}
+
+.site-breadcrumb {
+    background: none;
+    background: transparent;
 }
 
 /* CUSTOM: CARD */
