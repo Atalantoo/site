@@ -1,14 +1,11 @@
 
 card:
-  title:  ChronoQuiz
+  title:  ChronoQuiz (Puzzle)
   desc:   Coming soon.
   img:    /assets/img/products/workinprogress.jpg
   ico:    /assets/img/products/workinprogress-icon.jpg
   href:   /products/chronoquiz
 
-site:
-  title:   ChronoQuiz
-  
 presskit:
   title:   ChronoQuiz
   header:   /assets/img/products/chronoquiz/header.png
