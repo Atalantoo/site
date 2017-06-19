@@ -1,7 +1,6 @@
 body  {
     color: #fff;
     background: url(/assets/img/site-bg2.jpg) no-repeat 50% 0 #002551;
-    font-family: Helvetica,Arial,sans-serif;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -184,9 +183,39 @@ footer #site-social {               margin-bottom: 20px; }
 .site-team .site-member #avatar {
     width: 150px;
     height: 150px;
-        margin-top: 10px;
+    margin-top: 10px;
 
 }
 .site-team .site-member .btn{
     margin-bottom: 3px;
+}
+
+
+
+.presskit-container {
+    color: #000;
+    background-color: #fff;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+.presskit-container h2,
+.presskit-container h3,
+.presskit-container h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+.presskit-container h1 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+.presskit-container #banner img,
+.presskit-container #images img {
+    width: 100%;
+}
+.presskit-container #logo img {
+    width: 270px;
+    height: 270px;
 }

@@ -13,13 +13,7 @@ lead: Welcome!
 <div class="visible-xs">
   <p>&nbsp;</p>
   <div class="row">
-		{% include tpl-card-mini.html 
-		  title=site.products.chronoquiz.title 
-		  desc=site.products.chronoquiz.desc 
-		  img='/assets/img/products/workinprogress.jpg' 
-		  ico='/assets/img/products/workinprogress-icon.jpg' 
-		  href='/products/chronoquiz' 
-		  %}
+{% include tpl-card-mini.html card=site.data.products.chronoquiz.card %}
   </div>
 </div>
 
@@ -33,38 +27,22 @@ lead: Welcome!
 <!--
   <div class="alert alert-info" role="alert">{{ site.news.a }}</div>
 -->
-  <p>{{ site.news.a }}</p>
+{% for i in site.data.news %}
+  <p>{{ i }}</p>
+{% endfor %}
 </div>
 
 <div>
   <h1 class="page-header">Products</h1>
   <div class="row">
 	<div class="col-sm-12 col-md-6">
-		{% include tpl-card-mini.html 
-		  title=site.products.chronoquiz.title 
-		  desc=site.products.chronoquiz.desc 
-		  img='/assets/img/products/workinprogress.jpg' 
-		  ico='/assets/img/products/workinprogress-icon.jpg' 
-		  href='/products/chronoquiz' 
-		  %}
+{% include tpl-card-mini.html card=site.data.products.chronoquiz.card %}
 	</div>
 	<div class="col-sm-6 col-md-4">
-		{% include tpl-card-mini.html 
-		  title=site.products.dinoblast.title 
-		  desc=site.products.dinoblast.desc 
-		  img='/assets/img/products/workinprogress.jpg' 
-		  ico='/assets/img/products/workinprogress-icon.jpg' 
-		  href='/products/dinoblast' 
-		  %}
+{% include tpl-card-mini.html card=site.data.products.dinoblast.card %}
 	</div>
 	<div class="col-sm-6 col-md-4">
-		{% include tpl-card-mini.html 
-		  title=site.products.museum.title 
-		  desc=site.products.museum.desc 
-		  img='/assets/img/products/workinprogress.jpg' 
-		  ico='/assets/img/products/workinprogress-icon.jpg' 
-		  href='/products/museum' 
-		  %}
+{% include tpl-card-mini.html card=site.data.products.museum.card %}
 	</div>
   </div>
 </div>
