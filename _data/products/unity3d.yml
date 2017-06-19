@@ -1,0 +1,10 @@
+card:
+  title:  ALib (Unity3D Tool)
+  desc:   OpenSource extensions for Unity3D. This project provides UI (Material), localization (i18n), language traduction (l10n), charts (d3), REST Client (API), Auth (http, token), style (palettes).
+  img:    /assets/img/products/unity3d_lib.jpg
+  ico:    /assets/img/products/workinprogress-icon.jpg
+  href:   https://github.com/Atalantoo/unity3d-toolkit
+
+  links:
+    - title: View the GitHub project
+      href: https://github.com/Atalantoo/unity3d-toolkit

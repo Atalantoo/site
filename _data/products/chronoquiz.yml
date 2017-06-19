@@ -1,0 +1,40 @@
+
+card:
+  title:  ChronoQuiz
+  desc:   Coming soon.
+  img:    /assets/img/products/workinprogress.jpg
+  ico:    /assets/img/products/workinprogress-icon.jpg
+  href:   /products/chronoquiz
+
+site:
+  title:   ChronoQuiz
+  
+presskit:
+  title:   ChronoQuiz
+  header:   /assets/img/products/chronoquiz/header.png
+  factsheet:
+    release:   2017
+    platforms:  Android, Windows, Steam, iOS
+    site:    http://atalantoo.com/chronoquiz
+    price:    free to play
+  description:  TODO...
+  history:    TODO...
+  features:
+    - TODO 1
+    - TODO 2
+  videos:  
+    - title: Trailer 2
+      src: https://www.youtube.com/embed/zpOULjyy-n8?rel=0
+    - title: Trailer 1
+      src: https://www.youtube.com/embed/zpOULjyy-n8?rel=0
+  images:
+    - src: http://cdn.akamai.steamstatic.com/steam/apps/451600/capsule_184x69.jpg?t=1490750238
+    - src: http://cdn.akamai.steamstatic.com/steam/apps/451600/capsule_184x69.jpg?t=1490750238
+  logo:  http://cdn.akamai.steamstatic.com/steam/apps/451600/capsule_184x69.jpg?t=1490750238
+  links:
+    - title: Steam
+      desc: Check out the game on 
+      href: http://atalantoo.com/chronoquiz
+    - title: IndieDB
+      desc: Get updates and read developer articles at 
+      href:: http://atalantoo.com/chronoquiz

@@ -29,26 +29,3 @@ steam:       .
 # Custom vars
 browsercolor: #000
 copyright: 2017 ATALANTOO. All Rights Reserved.
-
-# Content
-news:
-  a:  2017/06/18 - Chronoquiz is in it's final production phase. Coming soon in 2017.
-  b:
-  c:
-
-products:
-  unity3d:
-    title: 	ALib (Unity3D Tool)
-    desc: 	OpenSource extensions for Unity3D. This project provides UI (Material), localization (i18n), language traduction (l10n), charts (d3), REST Client (API), Auth (http, token), style (palettes).
-  ci:
-    title: 	Project CI (Software Tool)
-    desc: 	An omni-tool for Continuous Integration. It covers the full-stack, from specifications, to testing, deployment and supervision. Provide a a replacement for Jenkins, Ansible and Nagios.
-  chronoquiz:
-    title: 	ChronoQuiz (Puzzle)
-    desc: 	Coming soon.
-  dinoblast:
-    title: 	DinoBlast! (Game)
-    desc: 	A traditionnal ShootEmUp, set in a prehistoric universe.
-  museum:
-    title:  Museum (Education)
-    desc:   A sandbox game, where you travel through time.

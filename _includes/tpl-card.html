@@ -1,12 +1,22 @@
-	<div class="site-card site-card-big row">
-		<div class="col-md-5"><a href="{{ include.href }}">
-			<img src="{{ include.img }}" class="img-rounded"></a></div>
-	  <div class="col-md-7">
-	  	<h4><a href="{{ include.href }}">
-	  		<img src="{{ include.ico }}" class="img-rounded"> 
-	  		{{ include.title }}
-	  	</a></h4>
-	    <p>{{ include.desc }}</p>
-	    {{ include.content }}
-	  </div>
+<div class="site-card site-card-big row">
+	<div class="col-md-5">
+		<a href="{{ include.card.href }}">
+			<img class="img-rounded" src="{{ include.card.img }}">
+		</a>
 	</div>
+	<div class="col-md-7">
+	  	<h4>
+	  		<a href="{{ include.card.href }}">
+	  			<img class="img-rounded" src="{{ include.card.ico }}"> 
+	  			{{ include.card.title }}
+	  		</a>
+	  	</h4>
+	    <p>{{ include.card.desc }}</p>
+	    <p> 
+	    	<a class="btn btn-primary" href="{{ include.card.href }}">More &gt;</a>
+{% for i in include.card.links %}
+  			<a class="btn btn-default" href="{{ i.href }}">{{ i.title }}</a>
+{% endfor %}
+		</p>
+	</div>
+</div>
