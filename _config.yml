@@ -1,9 +1,9 @@
 repository: Atalantoo/atalantoo.github.io
+version:	0.1.0
 
 # Server
 url:         https://atalantoo.github.io/
 encoding:    UTF-8
-
 gems:
   - jekyll-sitemap
 
