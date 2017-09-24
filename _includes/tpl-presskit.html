@@ -38,7 +38,7 @@
 			</div>
 			<div>
 				<strong>Website:</strong>
-				<p>{{ include.presskit.factsheet.site }}</p>
+				<p><a href="{{ include.presskit.factsheet.site }}">{{ include.presskit.factsheet.site }}</a></p>
 			</div>
 			<div>
 				<strong>Regular Price:</strong>
@@ -90,8 +90,8 @@
 			<h2>Images</h2>
 			<div class="row">
 	{% for i in include.presskit.images %}
-				<div class="col-md-6">
-		    		<img src="{{ i.src }}"/>
+				<div class="col-md-2">
+		    		<a target="_blank" href="{{ i.src }}"><img src="{{ i.src }}"/></a>
 				</div>
 	{% endfor %}
 			</div>
@@ -139,7 +139,7 @@
 				<h2>Game Name Credits</h2>
 				<div>
 					<strong>Damien Fremont</strong> <br/>
-					<p>Development, Art, Graphic Design, Music, QA</p>
+					<p>Development, Art, Graphic, Design, Music</p>
 				</div>
 			</div>
 			<div id="contact" class="col-md-6">

@@ -4,7 +4,6 @@ card:
   img:    /assets/img/products/unity3d_lib.jpg
   ico:    /assets/img/products/workinprogress-icon.jpg
   href:   https://github.com/Atalantoo/unity3d-toolkit
-
   links:
     - title: View the GitHub project
       href: https://github.com/Atalantoo/unity3d-toolkit

@@ -1,0 +1,49 @@
+<a href="{{ include.presskit.factsheet.site }}/presskit">Presskit</a>
+
+	<div id="banner" class="">
+	    <img src="{{ include.presskit.header }}"/>
+	</div>
+
+		<div>
+	{% for i in include.presskit.videos %}
+			<p> <strong>{{ i.title }}</strong> <a href="{{ i.src }}" target="_blank">YouTube</a>
+				<div class="embed-responsive embed-responsive-16by9">
+				  <iframe class="embed-responsive-item" src="{{ i.src }}"></iframe>
+				</div>
+			</p>
+	{% endfor %}
+		</div>
+
+		<div>
+				<h2>Description</h2>
+				<p>{{ include.presskit.description }}</p>
+				<p>{{ include.presskit.history }}</p>
+				<ul>
+{% for i in include.presskit.features %}
+		    		<li>{{ i }}</li>
+{% endfor %}
+				</ul>
+		</div>
+
+<hr/>
+
+		<div>
+			<div class="row">
+	{% for i in include.presskit.images %}
+				<div class="col-md-2">
+		    		<img class="product-image" src="{{ i.src }}"/>
+				</div>
+	{% endfor %}
+			</div>
+		</div>
+
+<hr/>
+
+		<div>
+	{% for i in include.presskit.links %}
+			<p>
+				<strong>{{ i.title}}</strong> <br/>
+			    {{ i.desc }} <a href="{{ i.href }}">{{ i.title }}</a>.
+			</p>
+	{% endfor %}
+		</div>
