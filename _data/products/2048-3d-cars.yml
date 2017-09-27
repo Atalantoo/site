@@ -29,3 +29,9 @@ presskit:
     - src: /assets/img/products/2048-3d-cars/phone004.png
   logo:  /assets/img/products/2048-3d-cars/app-icon-512.png
   links:
+    - title: Android
+      desc: Check out on GooglePlay
+      href: https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars
+    - title: Unity
+      desc: Check out the game dev on Made with Unity
+      href: https://connect.unity.com/p/2048-3d-cars

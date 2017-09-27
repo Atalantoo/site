@@ -157,6 +157,7 @@ body  {
 #site-social .site-facebook {   background: url(/assets/img/social/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-twitter {    background: url(/assets/img/social/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-instagram {  background: url(/assets/img/social/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-tumblr    {  background: url(/assets/img/social/icon-tumblr.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-googleplus { background: url(/assets/img/social/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-linkedin {   background: url(/assets/img/social/icon-linkedin.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-youtube {    background: url(/assets/img/social/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
@@ -164,6 +165,8 @@ body  {
 #site-social .site-android    { background: url(/assets/img/social/icon-android.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-ios        { background: url(/assets/img/social/icon-ios.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-steam      { background: url(/assets/img/social/icon-steam.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-unity      { background: url(/assets/img/social/icon-unity.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-github      { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
 
 header #site-social li,
 .site-support #site-social li {     margin: 5px 5px 0px 5px; }
