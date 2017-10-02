@@ -168,6 +168,22 @@ body  {
 #site-social .site-unity      { background: url(/assets/img/social/icon-unity.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-github      { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
 
+#site-store {
+    height: 64px;
+    margin: 5px 0px 5px 0px;
+}
+#site-store a {
+    float: right;
+    width: 196px;
+    height: 64px;
+}
+#site-store .site-android    { background: url(/assets/img/store/icon-android-64.png) no-repeat center; background-size: 196px 64px;}
+
+#banner, #banner img {
+    height: auto;
+    width: 100%;
+}
+
 header #site-social li,
 .site-support #site-social li {     margin: 5px 5px 0px 5px; }
 footer #site-social li {            margin: 10px; }
@@ -225,5 +241,6 @@ footer #site-social {               margin-bottom: 20px; }
 /* PRODUCT */
 .product-image {
     width: 100%;
-    height: auto;    
+    height: auto;
+    margin: 3px 0px 3px 0px;
 }

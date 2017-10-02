@@ -7,6 +7,8 @@ card:
   links:
     - title: Presskit
       href: /2048-3d-cars/presskit
+    - title: GooglePlay
+      href: https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars
 
 presskit:
   title:  2048 3D Cars!
@@ -35,3 +37,6 @@ presskit:
     - title: Unity
       desc: Check out the game dev on Made with Unity
       href: https://connect.unity.com/p/2048-3d-cars
+  stores:
+    - store: android
+      href: https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars
