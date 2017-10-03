@@ -166,7 +166,9 @@ body  {
 #site-social .site-ios        { background: url(/assets/img/social/icon-ios.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-steam      { background: url(/assets/img/social/icon-steam.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-unity      { background: url(/assets/img/social/icon-unity.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-github      { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-github     { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-appszoom   { background: url(/assets/img/social/icon-appszoom.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-indiedb   { background: url(/assets/img/social/icon-indiedb.png) no-repeat center; background-size: 50px 50px;}
 
 #site-store {
     height: 64px;
