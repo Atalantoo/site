@@ -29,6 +29,8 @@ presskit:
     - src: /assets/img/products/2048-3d-cars/phone002.png
     - src: /assets/img/products/2048-3d-cars/phone003.png
     - src: /assets/img/products/2048-3d-cars/phone004.png
+    - src: /assets/img/products/2048-3d-cars/phone005.png
+    - src: /assets/img/products/2048-3d-cars/phone006.png
   logo:  /assets/img/products/2048-3d-cars/app-icon-512.png
   links:
     - title: Android
