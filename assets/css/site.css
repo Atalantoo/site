@@ -6,6 +6,14 @@ body  {
     font-weight: 300;
 }
 
+.site-container a {
+    color: white;
+    text-decoration: underline;
+}
+.site-container .site-breadcrumb a {
+    text-decoration: none;
+}
+
 /* NAV */
 
 .site-nav {
@@ -98,6 +106,13 @@ body  {
     background: none;
     background: transparent;
 }
+@media (max-width: 767px) { 
+    .site-breadcrumb {
+        display: none !important;
+    }
+}
+
+
 
 /* CUSTOM: CARD */
 
@@ -219,6 +234,11 @@ footer #site-social {               margin-bottom: 20px; }
     font-size: 12px;
     font-weight: normal;
 }
+.presskit-container a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
 .presskit-container h2,
 .presskit-container h3,
 .presskit-container h4 {
