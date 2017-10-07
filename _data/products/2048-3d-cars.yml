@@ -23,14 +23,28 @@ presskit:
   features:
     - Swipe to move the cars parts and assemble them to create new cars.
     - There are multiple levels and cars. Unlock them all...
-  videos:  
   images:
-    - src: /assets/img/products/2048-3d-cars/phone001.png
-    - src: /assets/img/products/2048-3d-cars/phone002.png
     - src: /assets/img/products/2048-3d-cars/phone003.png
+    - src: /assets/img/products/2048-3d-cars/phone001.png
     - src: /assets/img/products/2048-3d-cars/phone004.png
-    - src: /assets/img/products/2048-3d-cars/phone005.png
-    - src: /assets/img/products/2048-3d-cars/phone006.png
+
+    - src: /assets/img/products/2048-3d-cars/phone002.png
+
+    - src: /assets/img/products/2048-3d-cars/phone-numbers.gif
+    - src: /assets/img/products/2048-3d-cars/phone-f40.gif
+    - src: /assets/img/products/2048-3d-cars/phone-model_t.gif
+    - src: /assets/img/products/2048-3d-cars/phone-deville.gif
+    - src: /assets/img/products/2048-3d-cars/phone-beetle.gif
+
+    - src: /assets/img/products/2048-3d-cars/devices-2048.png
+    - src: /assets/img/products/2048-3d-cars/devices-cars-f40.png
+    - src: /assets/img/products/2048-3d-cars/devices-cars-modele_t.png
+
+  video:
+    id: -IH7hFBIMLE
+  videos:
+    - id: -IH7hFBIMLE
+    - id: b8TzKTLern4
   logo:  /assets/img/products/2048-3d-cars/app-icon-512.png
   links:
     - title: Android
