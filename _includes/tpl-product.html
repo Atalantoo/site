@@ -11,15 +11,47 @@
 	    <img src="{{ include.presskit.header }}"/>
 	</div>
 
-		<div>
-	{% for i in include.presskit.videos %}
-			<p> <strong>{{ i.title }}</strong> <a href="{{ i.src }}" target="_blank">YouTube</a>
-				<div class="embed-responsive embed-responsive-16by9">
-				  <iframe class="embed-responsive-item" src="{{ i.src }}"></iframe>
-				</div>
-			</p>
-	{% endfor %}
-		</div>
+{% if include.presskit.video != "" %}
+<div id="banner-video">
+	<br/>
+	<div class="embed-responsive embed-responsive-16by9">
+	  <div id="player"></div>
+	</div>
+    <script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          videoId: '{{ include.presskit.video.id }}',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+         }
+        });
+      }
+
+      var done = false;
+      function onPlayerReady(event) {
+          player.mute();
+          player.playVideo();
+          done = false;
+      }
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.ENDED && !done) {
+          done = true;
+          player.mute();
+          player.playVideo();
+          done = false;
+        }
+      }
+    </script>
+</div>
+{% endif %}
 
 		<div>
 				<h2>Description</h2>
@@ -43,6 +75,19 @@
 	{% endfor %}
 			</div>
 		</div>
+
+<hr/>
+
+<div id="videos" class="row">
+{% for i in include.presskit.videos %}
+	<div class="col-md-4">
+		<div class="embed-responsive embed-responsive-4by3">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ i.id }}?rel=0"></iframe>
+		</div>
+	</div>
+{% endfor %}
+</div>
+
 
 <hr/>
 
