@@ -184,6 +184,7 @@ body  {
 #site-social .site-github     { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-appszoom   { background: url(/assets/img/social/icon-appszoom.png) no-repeat center; background-size: 50px 50px;}
 #site-social .site-indiedb   { background: url(/assets/img/social/icon-indiedb.png) no-repeat center; background-size: 50px 50px;}
+#site-social .site-flickr   { background: url(/assets/img/social/icon-flickr.png) no-repeat center; background-size: 50px 50px;}
 
 #site-store {
     height: 64px;
