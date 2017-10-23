@@ -1,8 +1,8 @@
 card:
   title:  2048 3D Cars! (Reflexion)
   desc:   2048 3D Cars! is a fun and easy to play puzzle game. It's like the 2048 game, but with cars!
-  img:    /assets/img/products/2048-3d-cars/app-image.png
-  ico:    /assets/img/products/2048-3d-cars/app-icon-512.png
+  img:    /assets/img/products/2048-3d-cars/app-image.jpg
+  ico:    /assets/img/products/2048-3d-cars/app-icon.png
   href:   /2048-3d-cars
   links:
     - title: Presskit
@@ -12,7 +12,7 @@ card:
 
 presskit:
   title:  2048 3D Cars!
-  header:   /assets/img/products/2048-3d-cars/app-image.png
+  header:   /assets/img/products/2048-3d-cars/app-image.jpg
   factsheet:
     release:   2017 (October)
     platforms:  Android
@@ -24,17 +24,23 @@ presskit:
     - Swipe to move the cars parts and assemble them to create new cars.
     - There are multiple levels and cars. Unlock them all...
   images:
-    - src: /assets/img/products/2048-3d-cars/phone003.png
-    - src: /assets/img/products/2048-3d-cars/phone001.png
-    - src: /assets/img/products/2048-3d-cars/phone004.png
+    - src: /assets/img/products/2048-3d-cars/phone2-2048.gif
+    - src: /assets/img/products/2048-3d-cars/phone2-f40.gif
+    - src: /assets/img/products/2048-3d-cars/phone2-model_t.gif
+    - src: /assets/img/products/2048-3d-cars/phone2-deville.gif
+    - src: /assets/img/products/2048-3d-cars/phone2-beetle.gif
 
     - src: /assets/img/products/2048-3d-cars/phone002.png
 
-    - src: /assets/img/products/2048-3d-cars/phone-numbers.gif
-    - src: /assets/img/products/2048-3d-cars/phone-f40.gif
-    - src: /assets/img/products/2048-3d-cars/phone-model_t.gif
-    - src: /assets/img/products/2048-3d-cars/phone-deville.gif
-    - src: /assets/img/products/2048-3d-cars/phone-beetle.gif
+    - src: /assets/img/products/2048-3d-cars/ScreenShot001.png
+    - src: /assets/img/products/2048-3d-cars/ScreenShot002.png
+    - src: /assets/img/products/2048-3d-cars/ScreenShot003.png
+    - src: /assets/img/products/2048-3d-cars/ScreenShot004.png
+    - src: /assets/img/products/2048-3d-cars/ScreenShot005.png
+
+    - src: /assets/img/products/2048-3d-cars/phone005.png
+    - src: /assets/img/products/2048-3d-cars/phone006.png
+    - src: /assets/img/products/2048-3d-cars/phone007.png
 
     - src: /assets/img/products/2048-3d-cars/devices-2048.png
     - src: /assets/img/products/2048-3d-cars/devices-cars-f40.png
@@ -45,7 +51,7 @@ presskit:
   videos:
     - id: -IH7hFBIMLE
     - id: b8TzKTLern4
-  logo:  /assets/img/products/2048-3d-cars/app-icon-512.png
+  logo:  /assets/img/products/2048-3d-cars/app-icon.png
   links:
     - title: Android
       desc: Check out on GooglePlay
