@@ -14,8 +14,20 @@ body  {
     margin-bottom: 0;
     border-bottom: 1px solid hsla(0,0%,100%,.15);
 }
-.site-nav .navbar-brand {
-    padding: 0px;
+.site-nav .navbar-brand { 
+
+    margin: 5px 5px 0px 5px;
+
+    float: left;
+    width: 42px;
+    height: 42px;
+
+    display: block;
+    text-indent: -999em;
+
+    border-radius: 50%;  border: solid 1px #2a2730; box-shadow: 2px 2px #2a2730;
+
+    background: url(/assets/img/site-logo.png) no-repeat center; background-size: 50px 50px;
 }
 
 .navbar-brand, 
@@ -68,7 +80,7 @@ body  {
 
 @media (max-width: 767px) {
     .site-nav {   background-color: rgba(11,13,18,.95); }
-    .site-nav .navbar-brand { position: absolute; top: 0; left: 35%; }
+    .site-nav .navbar-brand { position: absolute; top: 0; left: 40%; }
 }
 @media (min-width: 1200px) {
     .site-header h1 {  font-size: 70px;  }
@@ -148,35 +160,35 @@ body  {
 
 /* CUSTOM: SOCIAL */
 
-#site-social li {
+.site-social li {
     float: left;
     width: 42px;
     height: 42px;
 }
-#site-social a {
+.site-social a {
     display: block;
     width: 100%;
     height: 100%;
     text-indent: -999em;
 }
 
-#site-social li a {    border-radius: 50%;  border: solid 1px #2a2730; box-shadow: 2px 2px #2a2730;        }
-#site-social .site-facebook {   background: url(/assets/img/social/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-twitter {    background: url(/assets/img/social/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-instagram {  background: url(/assets/img/social/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-tumblr    {  background: url(/assets/img/social/icon-tumblr.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-googleplus { background: url(/assets/img/social/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-linkedin {   background: url(/assets/img/social/icon-linkedin.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-youtube {    background: url(/assets/img/social/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-windows {    background: url(/assets/img/social/icon-windows.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-android    { background: url(/assets/img/social/icon-android.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-ios        { background: url(/assets/img/social/icon-ios.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-steam      { background: url(/assets/img/social/icon-steam.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-unity      { background: url(/assets/img/social/icon-unity.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-github     { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-appszoom   { background: url(/assets/img/social/icon-appszoom.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-indiedb   { background: url(/assets/img/social/icon-indiedb.png) no-repeat center; background-size: 50px 50px;}
-#site-social .site-flickr   { background: url(/assets/img/social/icon-flickr.png) no-repeat center; background-size: 50px 50px;}
+.site-social li a {    border-radius: 50%;  border: solid 1px #2a2730; box-shadow: 2px 2px #2a2730;        }
+.site-social .site-facebook {   background: url(/assets/img/social/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-twitter {    background: url(/assets/img/social/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-instagram {  background: url(/assets/img/social/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-tumblr    {  background: url(/assets/img/social/icon-tumblr.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-googleplus { background: url(/assets/img/social/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-linkedin {   background: url(/assets/img/social/icon-linkedin.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-youtube {    background: url(/assets/img/social/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-windows {    background: url(/assets/img/social/icon-windows.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-android    { background: url(/assets/img/social/icon-android.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-ios        { background: url(/assets/img/social/icon-ios.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-steam      { background: url(/assets/img/social/icon-steam.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-unity      { background: url(/assets/img/social/icon-unity.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-github     { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-appszoom   { background: url(/assets/img/social/icon-appszoom.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-indiedb   { background: url(/assets/img/social/icon-indiedb.png) no-repeat center; background-size: 50px 50px;}
+.site-social .site-flickr   { background: url(/assets/img/social/icon-flickr.png) no-repeat center; background-size: 50px 50px;}
 
 #site-store {
     height: 64px;
@@ -194,10 +206,10 @@ body  {
     width: 100%;
 }
 
-header #site-social li,
-.site-support #site-social li {     margin: 5px 5px 0px 5px; }
-footer #site-social li {            margin: 10px; }
-footer #site-social {               margin-bottom: 20px; }
+header .site-social li,
+.site-support .site-social li {     margin: 5px 5px 0px 5px; }
+footer .site-social li {            margin: 10px; }
+footer .site-social {               margin-bottom: 20px; }
 
 /* CUSTOM: PAGES */
 
