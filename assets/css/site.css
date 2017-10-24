@@ -1,6 +1,6 @@
 body  {
     color: #fff;
-    background: url(/assets/img/site-bg2.jpg) no-repeat 50% 0 #002551;
+    background-color:  #5d5a7d;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -9,32 +9,14 @@ body  {
 /* NAV */
 
 .site-nav {
-    background: rgb(54, 25, 25); /* Fall-back */
-    background: rgba(54, 25, 25, .5);
+    background-color: #000;
     margin-bottom: 0;
     border-bottom: 1px solid hsla(0,0%,100%,.15);
 }
 .site-nav .navbar-brand { 
-
-    margin: 5px 5px 0px 5px;
-
-    float: left;
-    width: 42px;
-    height: 42px;
-
-    display: block;
-    text-indent: -999em;
-
-    border-radius: 50%;  border: solid 1px #2a2730; box-shadow: 2px 2px #2a2730;
-
-    background: url(/assets/img/site-logo-inv.png) no-repeat center; background-size: 50px 50px;
-}
-.index-brand { 
-
-    height: 100px;
-    text-align: center;
-
-    background: url(/assets/img/site-brand-inv.png) no-repeat center; background-size: 300px 100px;
+    height: 50px;
+    width: 150px;
+    background: url(/assets/img/site-brand-inv.png) no-repeat center; background-size: 150px 50px;
 }
 
 .navbar-brand, 
@@ -63,15 +45,13 @@ body  {
 }
 .site-header,
 .site-masthead {
-    color: #a34120;
-    background: rgb(54, 25, 25); /* Fall-back */
-    background: rgba(54, 25, 25, .5);
+    color: #626262;
+    background-color: #fffdf9;
     position: relative;
     padding: 30px 0;
     text-align: center;
-    text-shadow: 1px 1px #2a2730;
+    text-shadow: 1px 1px #c5c5c5;
 
-    color: #FFFFFF;
     font-size: 23px;
     font-weight: 300;
 }
@@ -79,7 +59,6 @@ body  {
 	margin-top: 0;
     text-align: center;
 
-    color: #FFFFFF;
     font-size: 35px;
     font-weight: 700;
     text-transform: uppercase;
@@ -87,18 +66,24 @@ body  {
 
 @media (max-width: 767px) {
     .site-nav {   background-color: rgba(11,13,18,.95); }
-    .site-nav .navbar-brand { position: absolute; top: 0; left: 40%; }
+    .site-nav .navbar-brand { position: absolute; top: 0; left: 30%; }
 }
 @media (min-width: 1200px) {
     .site-header h1 {  font-size: 70px;  }
     .site-masthead {  font-size: 35px;  }
 }
 
+/* CONTENT */
+
+.site-container .site-btn-presskit {
+    color: #FFF;
+}
+
 /* FOOTER */
 
 .site-footer {
     color: #99979c;
-    background-color: #00214a;
+    background-color: #2f3233;
 	padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
@@ -126,7 +111,6 @@ body  {
 
 
 /* CUSTOM: CARD */
-
 .site-card {
     border: 1px solid #eee;
     color: #333;
@@ -153,7 +137,7 @@ body  {
     width: 250px;
     height: 170px;
 }
-
+/*
 .site-card-mini {
     padding: 0px 15px 0px 15px;
     margin-bottom: 10px;
@@ -164,6 +148,7 @@ body  {
 .site-card-mini img {
     width: 100%;
 }
+*/
 
 /* CUSTOM: SOCIAL */
 

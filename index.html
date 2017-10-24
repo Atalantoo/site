@@ -1,48 +1,18 @@
 ---
 layout: default
+title: 2048 3D Cars!
+lead: It's like the 2048 game, but with cars!
 ---
 
 <div class="nav-bar visible-xs text-center">
-  <a href="{{ site.baseurl }}/products">Products</a> | 
+  <a href="{{ site.baseurl }}/products">Projects</a> | 
   <a href="{{ site.baseurl }}/support">Support</a> | 
-  <a href="{{ site.baseurl }}/about">About</a>
+  <a href="{{ site.baseurl }}/about">About</a> | 
+  <a href="{{ site.baseurl }}/company/presskit">Press</a>
 </div>
 
-<div class="index-brand"></div>
+<br/>
+<br/>
+<br/>
 
-<div>
-  <p>&nbsp;</p>
-  <div class="row">
-{% include tpl-card-mini.html card=site.data.products.2048-3d-cars.card %}
-  </div>
-</div>
-
-<div>
-  <h2>Welcome!</h2>
-  <p>{{ site.description }}</p>
-</div>
-
-<div>
-  <h1 class="page-header">News</h1>
-<!--
-  <div class="alert alert-info" role="alert">{{ site.news.a }}</div>
--->
-{% for i in site.data.news %}
-  <p>{{ i }}</p>
-{% endfor %}
-</div>
-
-<div>
-  <h1 class="page-header">Products</h1>
-  <div class="row">
-  <div class="col-sm-12 col-md-6">
-{% include tpl-card-mini.html card=site.data.products.2048-3d-cars.card %}
-  </div>
-	<div class="col-sm-6 col-md-4">
-{% include tpl-card-mini.html card=site.data.products.chronoquiz.card %}
-	</div>
-	<div class="col-sm-6 col-md-4">
-{% include tpl-card-mini.html card=site.data.products.museum.card %}
-	</div>
-  </div>
-</div>
+{% include tpl-product.html presskit=site.data.products.2048-3d-cars.presskit %}

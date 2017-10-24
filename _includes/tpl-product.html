@@ -1,11 +1,3 @@
-<a href="{{ include.presskit.factsheet.site }}/presskit">Presskit</a>
-
-    <div id="site-store">
-{% for i in include.presskit.stores %}
-		<a target="_blank" class="site-{{ i.store }}" href="{{ i.href }}"></a>
-{% endfor %}
-	</div>
-
 
 	<div id="banner" class="">
 	    <img src="{{ include.presskit.header }}"/>
@@ -52,6 +44,14 @@
     </script>
 </div>
 {% endif %}
+
+    <a class="site-btn-presskit" href="{{ include.presskit.factsheet.site }}/presskit">Presskit</a>
+    <div id="site-store">
+{% for i in include.presskit.stores %}
+		<a target="_blank" class="site-{{ i.store }}" href="{{ i.href }}"></a>
+{% endfor %}
+	</div>
+
 
 		<div>
 				<h2>Description</h2>

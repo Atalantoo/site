@@ -12,13 +12,16 @@
     <nav id="site-navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li{% if page.slug == "products" %} class="active"{% endif %}>
-          <a href="{{ site.baseurl }}/products">Products</a>
+          <a href="{{ site.baseurl }}/products">Projects</a>
         </li>
         <li{% if page.slug == "support" %} class="active"{% endif %}>
           <a href="{{ site.baseurl }}/support">Support</a>
         </li>
         <li{% if page.slug == "about" %} class="active"{% endif %}>
           <a href="{{ site.baseurl }}/about">About</a>
+        </li>
+        <li{% if page.slug == "company-presskit" %} class="active"{% endif %}>
+          <a href="{{ site.baseurl }}/company/presskit/">Press</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right site-social">

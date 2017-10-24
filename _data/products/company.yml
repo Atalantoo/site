@@ -1,0 +1,25 @@
+presskit:
+  title:  Atalantoo Games
+  header:   /assets/img/products/company/site-brand.jpg
+  factsheet:
+    release:   2017 (June)
+    platforms:  Android Steam
+    site:    http://atalantoo.com/
+    price:    free to play
+  description:  Atalantoo is a game development studio located in Paris, France. The company develops top quality games for a broad range of digital platforms such as iOS, Android, Windows Phone, and Steam.
+  history:    Create as a side project.
+  features:
+    - One man team
+    - Creator of 2048 3D Cars
+  images:
+    - src: /assets/img/products/company/2048-3d-cars.jpg
+  videos:
+    - id: -IH7hFBIMLE
+  logo:  /assets/img/products/company/site-logo-512.jpg
+  links:
+    - title: 2048 3D Cars (Mobile Game)
+      desc: Check out presskit
+      href: http://127.0.0.1:4000/2048-3d-cars/presskit/
+    - title: Android
+      desc: Check out on GooglePlay
+      href: https://play.google.com/store/apps/dev?id=8294041563468906844
