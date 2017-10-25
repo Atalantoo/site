@@ -1,6 +1,6 @@
 presskit:
   title:  Atalantoo Games
-  header:   /assets/img/products/company/site-brand.jpg
+  header:   /assets/img/company/site-brand.png
   factsheet:
     release:   2017 (June)
     platforms:  Android Steam
@@ -12,10 +12,10 @@ presskit:
     - One man team
     - Creator of 2048 3D Cars
   images:
-    - src: /assets/img/products/company/2048-3d-cars.jpg
+    - src: /assets/img/company/2048-3d-cars.jpg
   videos:
     - id: -IH7hFBIMLE
-  logo:  /assets/img/products/company/site-logo-512.jpg
+  logo:  /assets/img/company/site-logo-512.jpg
   links:
     - title: 2048 3D Cars (Mobile Game)
       desc: Check out presskit
