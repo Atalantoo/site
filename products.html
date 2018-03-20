@@ -14,8 +14,11 @@ lead: "From games to tools..."
 <div class="site-products">
   <h1 class="page-header">{{ page.lead }}</h1>
 
+{% include tpl-card.html card=site.data.products.2048-3d-bikes.card %}
 {% include tpl-card.html card=site.data.products.2048-3d-cars.card %}
+
 {% include tpl-card.html card=site.data.products.extremeleague.card %}
+
 {% include tpl-card.html card=site.data.products.unity3d.card %}
 {% include tpl-card.html card=site.data.products.chronoquiz.card %}
 {% include tpl-card.html card=site.data.products.museum.card %}

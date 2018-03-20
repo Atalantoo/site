@@ -11,15 +11,21 @@ presskit:
   features:
     - One man team
     - Creator of 2048 3D Cars
+    - Creator of 2048 3D Bikes
   images:
+    - src: /assets/img/company/2048-3d-bikes.jpg
     - src: /assets/img/company/2048-3d-cars.jpg
   videos:
+    - id: Uih58yUZI1A
     - id: -IH7hFBIMLE
   logo:  /assets/img/company/site-logo-512.jpg
   links:
+    - title: 2048 3D Bikes (Mobile Game)
+      desc: Check out presskit
+      href: /2048-3d-bikes/presskit/
     - title: 2048 3D Cars (Mobile Game)
       desc: Check out presskit
-      href: http://127.0.0.1:4000/2048-3d-cars/presskit/
+      href: /2048-3d-cars/presskit/
     - title: Android
       desc: Check out on GooglePlay
       href: https://play.google.com/store/apps/dev?id=8294041563468906844
