@@ -8,7 +8,7 @@ lead: "From games to tools..."
 
 <ol  class="breadcrumb site-breadcrumb">
   <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li class="active">{{ page.title }}</li>
+  <li>{{ page.title }}</li>
 </ol>
 
 <div class="site-products">
@@ -16,12 +16,11 @@ lead: "From games to tools..."
 
 {% include tpl-card.html card=site.data.products.2048-3d-bikes.card %}
 {% include tpl-card.html card=site.data.products.2048-3d-cars.card %}
+{% include tpl-card.html card=site.data.products.unity3d.card %}
+{% include tpl-card.html card=site.data.products.ci.card %}
 
 {% include tpl-card.html card=site.data.products.extremeleague.card %}
-
-{% include tpl-card.html card=site.data.products.unity3d.card %}
 {% include tpl-card.html card=site.data.products.chronoquiz.card %}
 {% include tpl-card.html card=site.data.products.museum.card %}
-{% include tpl-card.html card=site.data.products.ci.card %}
 
 </div>
