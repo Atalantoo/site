@@ -3,8 +3,7 @@ card:
   desc:   An omni-tool for Continuous Integration. It covers the full-stack, from specifications, to testing, deployment and supervision. Provide a a replacement for Jenkins, Ansible and Nagios.
   img:    /assets/img/products/continuous_integration.png
   ico:    /assets/img/products/workinprogress-icon.jpg
-  href:   https://github.com/CleanStackOrg/project-ci
 
   links:
     - title: View the GitHub project
-      href: https://github.com/Atalantoo/unity3d-toolkit
+      href: https://github.com/CleanStackOrg/project-ci

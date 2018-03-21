@@ -1,13 +1,10 @@
-<a href="{{ include.card.href }}">
-	<div class="site-card site-card-mini col">
+	<div class="site-card-mini">
 	  <div class="row">
-	  	<h4>
-	  		<img src="{{ include.card.ico }}" class="img-rounded"> 
-	  		{{ include.card.title }}
-	  	</h4>
-	  </div>
-	  <div class="row">
-	  	<img src="{{ include.card.img }}">
+				<a href="{{ include.card.href }}">
+						<img src="{{ include.card.cover }}" class="img-rounded img-responsive"> 
+				</a>
+		</div>
+		<div class="row">
+				<a class="btn btn-lg btn-block btn-primary" href="{{ include.card.href }}">More</a>
 	  </div>
 	</div>
-</a>

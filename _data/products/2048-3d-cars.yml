@@ -3,6 +3,7 @@ card:
   desc:   2048 3D Cars! is a fun and easy to play puzzle game. It's like the 2048 game, but with cars!
   img:    /assets/img/products/2048-3d-cars/app-image.jpg
   ico:    /assets/img/products/2048-3d-cars/app-icon.png
+  cover:  /assets/img/products/2048-3d-cars/app-icon-512.png
   href:   /2048-3d-cars
   links:
     - title: Presskit
@@ -45,14 +46,20 @@ presskit:
   videos:
     - id: -IH7hFBIMLE
     - id: b8TzKTLern4
-  logo:  /assets/img/products/2048-3d-cars/app-icon.png
+  logo:  /assets/img/products/2048-3d-cars/app-icon-512.png
   links:
     - title: Android
-      desc: Check out on GooglePlay
+      desc: Download on GooglePlay
       href: https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars
     - title: Unity
       desc: Check out the game dev on Made with Unity
       href: https://connect.unity.com/p/2048-3d-cars
+    - title: Flickr
+      desc: Check out on Flickr
+      href: https://www.flickr.com/photos/152190113@N08/albums/72157686903929531
+    - title: Imgur
+      desc: Check out on Imgur
+      href: https://imgur.com/a/Fm0T2
   stores:
     - store: android
       href: https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars

@@ -3,6 +3,7 @@ card:
   desc:   2048 3D Bikes! is a fun and easy to play puzzle game. It's like the 2048 game, but with bikes!
   img:    /assets/img/products/2048-3d-bikes/app-image.jpg
   ico:    /assets/img/products/2048-3d-bikes/app-icon-64.png
+  cover:  /assets/img/products/2048-3d-bikes/app-icon-512.png
   href:   /2048-3d-bikes
   links:
     - title: Presskit

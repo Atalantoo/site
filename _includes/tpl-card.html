@@ -13,7 +13,9 @@
 	  	</h4>
 	    <p>{{ include.card.desc }}</p>
 	    <p> 
+{% if include.card.href %}
 	    	<a class="btn btn-primary" href="{{ include.card.href }}">More &gt;</a>
+{% endif %}
 {% for i in include.card.links %}
   			<a class="btn btn-default" href="{{ i.href }}">{{ i.title }}</a>
 {% endfor %}
