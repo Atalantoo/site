@@ -60,6 +60,12 @@ presskit:
     - title: Imgur
       desc: Check out on Imgur
       href: https://imgur.com/a/Fm0T2
+    - title: Gizmodo
+      desc: Check out news on Gizmodo
+      href: https://kinja.com/atalantoo
+    - title: Youtube
+      desc: Check out videos on Youtube
+      href: https://www.youtube.com/channel/UCHN8g_PTmmdkJ291QmNSjQA
   stores:
     - store: android
       href: https://play.google.com/store/apps/details?id=com.atalantoo.game20483dcars
