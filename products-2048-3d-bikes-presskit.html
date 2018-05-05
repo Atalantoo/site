@@ -5,10 +5,12 @@ title: 2048 3D Bikes! Presskit
 slug: 2048-3d-bikes-presskit
 ---
 
-<ol  class="breadcrumb site-breadcrumb">
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li><a href="{{ site.baseurl }}/products">Products</a></li>
-  <li>{{ page.title }}</li>
-</ol>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Home</a></li>
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/products">Products</a></li>
+    <li class="breadcrumb-item active">{{ page.title }}</li>
+  </ol>
+</nav>
 
 {% include tpl-presskit.html presskit=site.data.products.2048-3d-bikes.presskit %}

@@ -1,9 +1,5 @@
 body  {
-    color: rgb(36, 36, 36);
-    background-color:  #151e26;
-    font-family: Open Sans,Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 300;
+    color: #FFF;
 }
 body {
     background-size: 1500px;
@@ -13,43 +9,10 @@ body {
     background-repeat: no-repeat !important;
 }
 
-/* NAV */
-
-.site-nav {
-    background-color: #253446;
-    margin-bottom: 0;
-    border-bottom: 1px solid hsla(0,0%,100%,.15);
-}
-.site-nav .navbar-brand { 
-    height: 50px;
-    width: 150px;
-    background: url(/assets/img/site-brand-inv.png) no-repeat center; background-size: 150px 50px;
-}
-
-.navbar-brand, 
-.navbar-nav>li>a,
-.nav-bar.visible-xs a {
-	color: hsla(0,0%,100%,.6); 
-    text-shadow: 1px 1px #2a2730;
-}
-.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>li>a:hover {
-	color: hsla(0,0%,100%,.8); 
-}
-.navbar-nav>.active>a {
-    border-bottom: 3px solid #00aeff;
-}
-.navbar-toggle .icon-bar {
-    background-color: #99979c;
-}
-
-/* HEADER */
-
-.site-header {
-	/*margin-bottom: 40px;*/
+.site-masthead {
     font-size: 20px;
     border-bottom: 1px solid hsla(0,0%,100%,.15);
 }
-.site-header,
 .site-masthead {
     color: #626262;
     background-color: #fffdf9;
@@ -57,190 +20,40 @@ body {
     padding: 30px 0;
     text-align: center;
     text-shadow: 1px 1px #c5c5c5;
-
     font-size: 23px;
     font-weight: 300;
 }
-.site-header h1 {
+.site-masthead h1 {
 	margin-top: 0;
     text-align: center;
-
     font-size: 35px;
     font-weight: 700;
     text-transform: uppercase;
 }
-
-@media (max-width: 767px) {
-    .site-nav {   background-color: rgba(11,13,18,.95); }
-    .site-nav .navbar-brand { position: absolute; top: 0; left: 30%; }
-}
 @media (min-width: 1200px) {
-    .site-header h1 {  font-size: 70px;  }
-    .site-masthead {  font-size: 35px;  }
+    .site-masthead h1 {  font-size: 70px;  }
 }
 
-/* CONTENT */
-
-.site-container {
-    color: #FFF;
-}
-.site-container a {
-    color: #1da1f2;
-}
-.site-container .btn-default {
-    color: #333;
-}
-.site-container .btn-primary {
-    background-color: #1c87cd;
-    color: #FFF;
-}
-
-/* FOOTER */
-
-.site-footer {
-    color: #8899a6;
-    background-color: #1c2836;
-	padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 100px;
-    text-align: center;
-    border-top: 1px solid hsla(0,0%,100%,.15);
-}
-.site-footer li {
-    color: hsla(0,0%,100%,.7);
-}
-
-.site-footer .site-copyright  {
-    color: hsla(0,0%,100%,.3);
-}
-
-.site-breadcrumb {
-    background: none;
-    background: transparent;
-}
-@media (max-width: 767px) { 
-    .site-breadcrumb {
-        display: none !important;
-    }
-}
-ol.site-breadcrumb {
+.breadcrumb {
+    background-color: transparent !important;
     padding-left: 0px;
 }
-
-
-
-/* CUSTOM: CARD */
-.site-card {
-    border: 1px solid #eee;
-    color: #333;
-    background-color: #eee;
-
-    box-shadow: 2px 2px #2a2730;
-}
-.site-card h4 {
-    font-weight: 700;
-}
-.site-card h4 img {
-    width: 40px;
-    height: 40px;
-}
-.site-card h4 a{
-    color: #333;
+.breadcrumb-item.active {
+    color: white !important;
 }
 
-.site-card-big {
-    padding: 20px;
-    margin: 20px 0;
+.navbar {
+    font-size: 20px;
+    border-bottom: 1px solid hsla(0,0%,100%,.15);
 }
-.site-card-big img {
-    width: 250px;
-    height: 170px;
-}
-
-.site-card-mini {
-    margin-bottom: 100px;
-    width: 250px;
-    height: 250px;
-}
-.site-card-mini img {
-    width: 100%;
-}
-
-
-/* CUSTOM: SOCIAL */
-
-.site-social li {
-    float: left;
-    width: 42px;
-    height: 42px;
-}
-.site-social a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-indent: -999em;
-}
-
-.site-social li a {    border-radius: 50%;  border: solid 1px #2a2730; box-shadow: 2px 2px #2a2730;        }
-.site-social .site-facebook {   background: url(/assets/img/social/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-twitter {    background: url(/assets/img/social/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-instagram {  background: url(/assets/img/social/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-tumblr    {  background: url(/assets/img/social/icon-tumblr.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-googleplus { background: url(/assets/img/social/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-linkedin {   background: url(/assets/img/social/icon-linkedin.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-youtube {    background: url(/assets/img/social/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-windows {    background: url(/assets/img/social/icon-windows.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-android    { background: url(/assets/img/social/icon-android.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-ios        { background: url(/assets/img/social/icon-ios.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-steam      { background: url(/assets/img/social/icon-steam.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-unity      { background: url(/assets/img/social/icon-unity.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-github     { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-appszoom   { background: url(/assets/img/social/icon-appszoom.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-indiedb   { background: url(/assets/img/social/icon-indiedb.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-flickr   { background: url(/assets/img/social/icon-flickr.png) no-repeat center; background-size: 50px 50px;}
-.site-social .site-imgur   { background: url(/assets/img/social/icon-imgur.png) no-repeat center; background-size: 50px 50px;}
-
-#site-store {
-    height: 64px;
-    margin: 5px 0px 5px 0px;
-}
-#site-store a {
-    float: right;
-    width: 196px;
-    height: 64px;
-}
-#site-store .site-android    { background: url(/assets/img/store/icon-android-64.png) no-repeat center; background-size: 196px 64px;}
-
-#banner, #banner img {
-    height: auto;
-    width: 100%;
-}
-
-header .site-social li,
-.site-support .site-social li {     margin: 5px 5px 0px 5px; }
-footer .site-social li {            margin: 10px; }
-footer .site-social {               margin-bottom: 20px; }
-
-/* CUSTOM: PAGES */
-
-.site-support #thumb,
-.site-about #thumb, 
-.site-products #thumb {
+.navbar-brand { 
+    height: 50px;
     width: 150px;
-    height: 150px;
+    background: url(/assets/img/site-brand-inv.png) no-repeat center; background-size: 150px 50px;
 }
-
-.site-team .site-member #avatar {
-    width: 150px;
-    height: 150px;
-    margin-top: 10px;
-
+@media (max-width: 767px) {
+    .navbar-brand { position: absolute; top: 0; left: 30%; }
 }
-.site-team .site-member .btn{
-    margin-bottom: 3px;
-}
-
-
 
 .presskit-container {
     color: #000;
@@ -249,17 +62,16 @@ footer .site-social {               margin-bottom: 20px; }
     font-size: 12px;
     font-weight: normal;
 }
-
+.presskit-container h1 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+}
 .presskit-container h2,
 .presskit-container h3,
 .presskit-container h4 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 24px;
-    font-weight: normal;
-}
-.presskit-container h1 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 36px;
     font-weight: normal;
 }
 .presskit-container #banner img,
@@ -271,9 +83,49 @@ footer .site-social {               margin-bottom: 20px; }
     height: 270px;
 }
 
-/* PRODUCT */
-.product-image {
-    width: 100%;
-    height: auto;
-    margin: 3px 0px 3px 0px;
+.site-fab {
+    width: 42px;
+    height: 42px;
+    margin: 0 5px 0 5px;
+    float: left;
+    text-indent: -999em;
+    border-radius: 50%;  
+    border: solid 1px #2a2730; 
+    box-shadow: 2px 2px #2a2730;        
 }
+
+.site-store {
+    width: 196px;
+    height: 64px;
+}
+
+footer .copyright-text  {
+    color: hsla(0,0%,100%,.3);
+}
+
+body {
+    min-height: 100vh; 
+}
+.flex-grow {
+    flex: 1;
+}
+
+.site-fab.site-facebook {   background: url(/assets/img/social/icon-facebook.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-twitter {    background: url(/assets/img/social/icon-twitter.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-instagram {  background: url(/assets/img/social/icon-instagram.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-tumblr    {  background: url(/assets/img/social/icon-tumblr.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-googleplus { background: url(/assets/img/social/icon-googleplus.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-linkedin {   background: url(/assets/img/social/icon-linkedin.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-youtube {    background: url(/assets/img/social/icon-youtube.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-windows {    background: url(/assets/img/social/icon-windows.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-android    { background: url(/assets/img/social/icon-android.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-ios        { background: url(/assets/img/social/icon-ios.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-steam      { background: url(/assets/img/social/icon-steam.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-unity      { background: url(/assets/img/social/icon-unity.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-github     { background: url(/assets/img/social/icon-github.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-appszoom   { background: url(/assets/img/social/icon-appszoom.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-indiedb   { background: url(/assets/img/social/icon-indiedb.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-flickr   { background: url(/assets/img/social/icon-flickr.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-imgur   { background: url(/assets/img/social/icon-imgur.png) no-repeat center; background-size: 50px 50px;}
+
+.site-store.site-android    { background: url(/assets/img/store/icon-android-64.png) no-repeat center; background-size: 196px 64px;}

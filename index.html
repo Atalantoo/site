@@ -2,40 +2,37 @@
 layout: default
 ---
 
-<div class="nav-bar visible-xs text-center">
-  <a href="{{ site.baseurl }}/products">Projects</a> | 
-  <a href="{{ site.baseurl }}/support">Support</a> | 
-  <a href="{{ site.baseurl }}/about">About</a> | 
-  <a href="{{ site.baseurl }}/company/presskit">Press</a>
-</div>
-
-<p>&nbsp;</p>
-
-<div class="jumbotron" style="background-image: url('{{ site.data.products.2048-3d-cars.card.img }}'); background-size:cover;">
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p><a class="btn btn-primary btn-lg" href="/2048-3d-cars" role="button">Learn more</a></p>
+<div class="nav-bar d-block d-md-none text-center">
+  <a class="text-white" href="{{ site.baseurl }}/products">Projects</a> | 
+  <a class="text-white" href="{{ site.baseurl }}/support">Support</a> | 
+  <a class="text-white" href="{{ site.baseurl }}/about">About</a> | 
+  <a class="text-white" href="{{ site.baseurl }}/company/presskit">Press</a>
 </div>
 
 <p>&nbsp;</p>
 
 <div class="container">
 
+    <div class="jumbotron col" style="background-image: url('{{ site.data.products.2048-3d-cars.card.img }}'); background-size:cover;">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><a class="btn btn-primary btn-lg" href="/2048-3d-cars" role="button">Learn more &gt;</a></p>
+    </div>
+    
+    <p>&nbsp;</p>
+
   <div class="row">
-    <strong>Games</strong> &nbsp; <a href="/products">Display all projects &gt;</a>
+    <h3>Games</h3> &nbsp;<br/> 
+    <p><a class="btn btn-outline-light" href="/products">View all projects &gt;</a></p>
     <p>&nbsp;</p>
   </div>
 
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
       {% include tpl-card-mini.html card=site.data.products.2048-3d-bikes.card %}
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
       {% include tpl-card-mini.html card=site.data.products.2048-3d-cars.card %}
-    </div>
   </div>
 
 </div>

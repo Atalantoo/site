@@ -1,24 +1,13 @@
-<div class="site-card site-card-big row">
-	<div class="col-md-5">
-		<a href="{{ include.card.href }}">
-			<img class="img-rounded" src="{{ include.card.img }}">
-		</a>
-	</div>
-	<div class="col-md-7">
-	  	<h4>
-	  		<a href="{{ include.card.href }}">
-	  			<img class="img-rounded" src="{{ include.card.ico }}"> 
-	  			{{ include.card.title }}
-	  		</a>
-	  	</h4>
-	    <p>{{ include.card.desc }}</p>
-	    <p> 
+<div class="card mr-3 mb-3 text-white bg-dark border-light" style="width: 18rem; height: 32rem;">
+	<img class="card-img-top" src="{{ include.card.img }}"> 
+	<div class="card-body">
+		<h5 class="card-title">{{ include.card.title }}</h5>
+	    <p class="card-text">{{ include.card.desc }}</p>
 {% if include.card.href %}
-	    	<a class="btn btn-primary" href="{{ include.card.href }}">More &gt;</a>
+		<a class="btn btn-primary mb-1" href="{{ include.card.href }}">More &gt;</a>
 {% endif %}
 {% for i in include.card.links %}
-  			<a class="btn btn-default" href="{{ i.href }}">{{ i.title }}</a>
+		<a class="btn btn-secondary mb-1" href="{{ i.href }}">{{ i.title }}</a>
 {% endfor %}
-		</p>
 	</div>
 </div>

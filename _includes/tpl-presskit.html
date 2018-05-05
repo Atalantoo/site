@@ -1,24 +1,27 @@
-<div class="site-presskit">
+<div class="site-presskit row p-5">
+
 <div id="navigation" class="col-md-3">
 	<h1>{{ include.presskit.title }} Presskit</h1>
-	<ul class="nav nav-pills nav-stacked">
-		<li><a href="#factsheet">Factsheet</a></li>
-		<li><a href="#description">Description</a></li>
-		<li><a href="#history">History</a></li>
-		<li><a href="#projects">Features or Projects</a></li>
-		<li><a href="#videos">Videos</a></li>
-		<li><a href="#images">Images</a></li>
-		<li><a href="#logo">Logo and Icon</a></li>
-		<li><a href="#links">Additional Links</a></li>
-		<li><a href="#team">Team</a></li>
-		<li><a href="#contact">Contact</a></li>
+	<ul class="list-unstyled list-group list-group-flush">
+		<li class="list-group-item"><a href="#factsheet">Factsheet</a></li>
+		<li class="list-group-item"><a href="#description">Description</a></li>
+		<li class="list-group-item"><a href="#history">History</a></li>
+		<li class="list-group-item"><a href="#projects">Features or Projects</a></li>
+		<li class="list-group-item"><a href="#videos">Videos</a></li>
+		<li class="list-group-item"><a href="#images">Images</a></li>
+		<li class="list-group-item"><a href="#logo">Logo and Icon</a></li>
+		<li class="list-group-item"><a href="#links">Additional Links</a></li>
+		<li class="list-group-item"><a href="#team">Team</a></li>
+		<li class="list-group-item"><a href="#contact">Contact</a></li>
 	</ul>
 </div>
 
 <div class="col-md-9">
+
 	<div id="banner" class="">
-	    <img src="{{ include.presskit.header }}"/>
+		<img src="{{ include.presskit.header }}"/>
 	</div>
+
 	<div class="row">
 
 		<div id="factsheet" class="col-md-4">
@@ -58,7 +61,6 @@
 				<p>{{ include.presskit.history }}</p>
 			</div>
 
-
 			<div id="features" class="row">
 				<h2>Features / Projects</h2>
 				<ul>
@@ -67,107 +69,104 @@
 {% endfor %}
 				</ul>
 			</div>
-
 		</div>
 	</div>
+	
 	<hr/>
-	<div class="row col-md-12">
 
-		<div id="videos">
-			<h2>Videos</h2>
-<div id="videos" class="row">
-{% for i in include.presskit.videos %}
-	<div class="col-md-4">
-		<div class="embed-responsive embed-responsive-4by3">
-		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ i.id }}?rel=0"></iframe>
-		</div>
+	<div id="videos">
+		<h2>Videos</h2>
+		{% for i in include.presskit.videos %}
+			<div class="col-md-4">
+				<div class="embed-responsive embed-responsive-4by3">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ i.id }}?rel=0"></iframe>
+				</div>
+			</div>
+		{% endfor %}
 	</div>
-{% endfor %}
-</div>
-		</div>
 
-		<hr/>
+	<hr/>
 
-		<div id="images">
-			<h2>Images</h2>
-			<div>
-	{% for i in include.presskit.images %}
-			    <a target="_blank" href="{{ i.src }}">
-	    			<img class="img-rounded" 
-	    			    style="width:300px; margin:5px;"
-	    				src="{{ i.src }}"/>
-	    		</a>
-	{% endfor %}
-			</div>
-		</div>
-
-		<hr/>
-
-		<div id="logo">
-			<h2>Logo and Icon</h2>
-			<p>
-				<img src="{{ include.presskit.logo }}"/>
-			</p>
-		</div>
-
-		<hr/>
-
-		<div id="links">
-			<h2>Additional Links</h2>
-	{% for i in include.presskit.links %}
-			<p>
-				<strong>{{ i.title}}</strong> <br/>
-			    {{ i.desc }} <a href="{{ i.href }}">{{ i.title }}</a>.
-			</p>
-	{% endfor %}
-		</div>
-
-		<hr/>
-
-		<div id="about">
-			<h2>About</h2>
-			<div>
-				<strong>Boilerplate</strong><br/>
-				<p>Gamers making games. When we're not playing games we're making them. Some say it's an addiction</p>
-			</div>
-			<div>
-				<strong>More information</strong><br/>
-				<p>More information on Atalantoo Games, our logo and relevant media are available <a href="http://atalantoo.com/company/presskit/">here</a>.</p>
-			</div>
-		</div>
-
-		<hr/>
-
-		<div class="row">
-			<div id="team" class="col-md-6">
-				<h2>Game Name Credits</h2>
-				<div>
-					<strong>Damien Fremont</strong> <br/>
-					<p>Development, Art, Graphic, Design, Music</p>
-				</div>
-			</div>
-			<div id="contact" class="col-md-6">
-				<h2>Contact</h2>
-				<div>
-					<strong>Inquiries</strong> <br/>
-					<a target="_blank" href="mailto:atalantoo+contact@gmail.com">atalantoo + contact @ gmail.com</a>
-				</div>
-				<div>
-					<strong>Twitter</strong> <br/>
-					<a target="_blank" href="https://twitter.com/atalantoo">twitter.com/atalantoo</a>
-				</div>
-				<div>
-					<strong>Facebook</strong> <br/>
-					<a target="_blank" href="https://www.facebook.com/atalantoo">facebook.com/atalantoo</a>
-				</div>
-			</div>
-		</div>
-
-		<hr/>
-
+	<div id="images">
+		<h2>Images</h2>
 		<div>
-			<p>presskit by Damien Fremont</p>
+			{% for i in include.presskit.images %}
+			<a target="_blank" href="{{ i.src }}">
+				<img class="img-rounded" 
+					style="width:300px; margin:5px;"
+					src="{{ i.src }}"/>
+			</a>
+			{% endfor %}
 		</div>
 	</div>
+
+	<hr/>
+
+	<div id="logo">
+		<h2>Logo and Icon</h2>
+		<p>
+			<img src="{{ include.presskit.logo }}"/>
+		</p>
+	</div>
+
+
+	<div id="links">
+			<hr/>
+			<h2>Additional Links</h2>
+{% for i in include.presskit.links %}
+		<p>
+			<strong>{{ i.title}}</strong> <br/>
+			{{ i.desc }} <a href="{{ i.href }}">{{ i.title }}</a>.
+		</p>
+{% endfor %}
+	</div>
+
+	<hr/>
+
+	<div id="about">
+		<h2>About</h2>
+		<div>
+			<strong>Boilerplate</strong><br/>
+			<p>Gamers making games. When we're not playing games we're making them. Some say it's an addiction</p>
+		</div>
+		<div>
+			<strong>More information</strong><br/>
+			<p>More information on Atalantoo Games, our logo and relevant media are available <a href="http://atalantoo.com/company/presskit/">here</a>.</p>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="row">
+		<div id="team" class="col-md-6">
+			<h2>Game Name Credits</h2>
+			<div>
+				<strong>Damien Fremont</strong> <br/>
+				<p>Development, Art, Graphic, Design, Music</p>
+			</div>
+		</div>
+		<div id="contact" class="col-md-6">
+			<h2>Contact</h2>
+			<div>
+				<strong>Inquiries</strong> <br/>
+				<a target="_blank" href="mailto:atalantoo+contact@gmail.com">atalantoo + contact @ gmail.com</a>
+			</div>
+			<div>
+				<strong>Twitter</strong> <br/>
+				<a target="_blank" href="https://twitter.com/atalantoo">twitter.com/atalantoo</a>
+			</div>
+			<div>
+				<strong>Facebook</strong> <br/>
+				<a target="_blank" href="https://www.facebook.com/atalantoo">facebook.com/atalantoo</a>
+			</div>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div>
+		<p>presskit by Damien Fremont</p>
+	</div>
+	
 </div>
 </div>

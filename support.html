@@ -5,13 +5,15 @@ slug: support
 lead: How can I help you?
 ---
 
-<ol  class="breadcrumb site-breadcrumb">
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li>{{ page.title }}</li>
-</ol>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Home</a></li>
+    <li class="breadcrumb-item active">{{ page.title }}</li>
+  </ol>
+</nav>
 
 <div class="site-support">
-  <h1 class="page-header">{{ page.lead }}</h1>
+  <h1 class="border-bottom">{{ page.lead }}</h1>
   <p class="lead">If you experience a problem with downloading, installing, buying or using our products or services please use the form to submit any technical questions or bug reports. </p>
   <p><strong>Please notice, we only provide customer support in English or French languages.</strong></p>
 </div>
@@ -22,9 +24,9 @@ lead: How can I help you?
 	You can contact us on social networks like Twitter, Facebook or Google+. It's also important to add more details about your issue. For example, add the device/system used, the app name, and a screenshot. 
   </p>
   <p>
-    <a target="_blank" class="btn btn-primary btn-lg" href="{{ site.twitter }}">Twitter</a>
-    <a target="_blank" class="btn btn-default btn-lg" href="{{ site.facebook }}">Facebook</a>
-    <a target="_blank" class="btn btn-default btn-lg" href="{{ site.googleplus }}">Google+</a>
-    <a target="_blank" class="btn btn-default btn-lg" href="mailto:atalantoo+support@gmail.com">atalantoo + support @ gmail.com</a>
+    <a target="_blank" class="btn btn-primary btn-lg mb-1" href="{{ site.twitter }}">Twitter</a>
+    <a target="_blank" class="btn btn-secondary btn-lg mb-1" href="{{ site.facebook }}">Facebook</a>
+    <a target="_blank" class="btn btn-secondary btn-lg mb-1" href="{{ site.googleplus }}">Google+</a>
+    <a target="_blank" class="btn btn-secondary btn-lg mb-1" href="mailto:atalantoo+support@gmail.com">atalantoo + support @ gmail.com</a>
   </p>
 </div>

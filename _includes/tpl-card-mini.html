@@ -1,10 +1,7 @@
-	<div class="site-card-mini">
-	  <div class="row">
-				<a href="{{ include.card.href }}">
-						<img src="{{ include.card.cover }}" class="img-rounded img-responsive"> 
-				</a>
-		</div>
-		<div class="row">
-				<a class="btn btn-lg btn-block btn-primary" href="{{ include.card.href }}">More</a>
-	  </div>
+<div class="card mr-3 mb-3 text-white bg-dark border-light" style="width: 18rem;">
+	<img class="card-img-top" src="{{ include.card.cover }}"> 
+	<div class="card-body">
+		<h5 class="card-title">{{ include.card.title }}</h5>
+		<a class="btn btn-secondary" href="{{ include.card.href }}">More</a>
 	</div>
+</div>

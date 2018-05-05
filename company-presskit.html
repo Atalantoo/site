@@ -5,9 +5,11 @@ title: Company Presskit
 slug: company-presskit
 ---
 
-<ol  class="breadcrumb site-breadcrumb">
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li>{{ page.title }}</li>
-</ol>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Home</a></li>
+    <li class="breadcrumb-item active">{{ page.title }}</li>
+  </ol>
+</nav>
 
 {% include tpl-presskit.html presskit=site.data.company.presskit %}

@@ -5,7 +5,7 @@ card:
   ico:    /assets/img/products/unity3d/icon-unity.png
   href:   https://github.com/Atalantoo/unity3d-toolkit
   links:
-    - title: View the GitHub project 1
+    - title: View GitHub 1
       href: https://github.com/Atalantoo/unity3d-toolkit
-    - title: View the GitHub project 2
+    - title: View GitHub 2
       href: https://github.com/Atalantoo/unity3d-commons

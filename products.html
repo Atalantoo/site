@@ -6,21 +6,20 @@ slug: products
 lead: "From games to tools..."
 ---
 
-<ol  class="breadcrumb site-breadcrumb">
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li>{{ page.title }}</li>
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Home</a></li>
+  <li class="breadcrumb-item active">{{ page.title }}</li>
 </ol>
 
-<div class="site-products">
-  <h1 class="page-header">{{ page.lead }}</h1>
+<h1 class="border-bottom">{{ page.lead }}</h1>
 
-{% include tpl-card.html card=site.data.products.2048-3d-bikes.card %}
-{% include tpl-card.html card=site.data.products.2048-3d-cars.card %}
-{% include tpl-card.html card=site.data.products.unity3d.card %}
-{% include tpl-card.html card=site.data.products.ci.card %}
+<div class="row ml-1">
+  {% include tpl-card.html card=site.data.products.2048-3d-bikes.card %}
+  {% include tpl-card.html card=site.data.products.2048-3d-cars.card %}
+  {% include tpl-card.html card=site.data.products.unity3d.card %}
+  {% include tpl-card.html card=site.data.products.ci.card %}
 
-{% include tpl-card.html card=site.data.products.extremeleague.card %}
-{% include tpl-card.html card=site.data.products.chronoquiz.card %}
-{% include tpl-card.html card=site.data.products.museum.card %}
-
+  {% include tpl-card.html card=site.data.products.extremeleague.card %}
+  {% include tpl-card.html card=site.data.products.chronoquiz.card %}
+  {% include tpl-card.html card=site.data.products.museum.card %}
 </div>

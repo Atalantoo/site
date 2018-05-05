@@ -3,25 +3,31 @@
   <head>
     {% include header.html %}
   </head>
-  <body>
+  <body class="d-flex flex-column">
+
+    <header>
     {% include navbar.html %}
+    </header>
+
     {% if page.title != null %}
-    <div class="site-header" id="content" tabindex="-1">
+    <main class="site-masthead" id="content" tabindex="-1">
       <div class="container">
         <h1>{{ page.title }}</h1>
         <p>{{ page.lead }}</p>
       </div>
-    </div>
+    </main>
     {% endif %}
 
-    <div class="container site-container">
+    <section class="container-fluid flex-grow">
       <div class="row">
         <div class="col-md-{% if page.fullwidth == true %}12{% else %}11{% endif %}" role="main">
       {{ content }}
         </div>
       </div>
-    </div>
+    </section>
+
     {% include footer.html %}
+    
     {% include scripts.html %}
   </body>
 </html>
