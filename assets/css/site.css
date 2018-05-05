@@ -5,6 +5,13 @@ body  {
     font-size: 18px;
     font-weight: 300;
 }
+body {
+    background-size: 1500px;
+    background-color: #002a54 !important;
+    background-image: url(/assets/img/default-background.jpg) !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+}
 
 /* NAV */
 
