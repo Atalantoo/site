@@ -127,5 +127,6 @@ body {
 .site-fab.site-indiedb   { background: url(/assets/img/social/icon-indiedb.png) no-repeat center; background-size: 50px 50px;}
 .site-fab.site-flickr   { background: url(/assets/img/social/icon-flickr.png) no-repeat center; background-size: 50px 50px;}
 .site-fab.site-imgur   { background: url(/assets/img/social/icon-imgur.png) no-repeat center; background-size: 50px 50px;}
+.site-fab.site-reddit   { background: url(/assets/img/social/icon-reddit.jpg) no-repeat center; background-size: 50px 50px;}
 
 .site-store.site-android    { background: url(/assets/img/store/icon-android-64.png) no-repeat center; background-size: 196px 64px;}
