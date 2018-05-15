@@ -43,6 +43,10 @@ presskit:
     - src: /assets/img/products/2048-3d-cars/devices-cars-f40.png
     - src: /assets/img/products/2048-3d-cars/devices-cars-modele_t.png
 
+    - src: /assets/img/products/2048-3d-cars/Diapositive1.PNG
+    - src: /assets/img/products/2048-3d-cars/Diapositive2.PNG
+    - src: /assets/img/products/2048-3d-cars/Diapositive3.PNG
+
   video:
     id: -IH7hFBIMLE
   videos:
