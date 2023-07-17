@@ -4,6 +4,8 @@ Atalantoo.com
 Atalantoo official website (static)
 - http://atalantoo.com
 
+![img](./doc/README-screenshot-1.png)
+
 # Getting started
 
 - install ruby https://rubyinstaller.org/downloads/
